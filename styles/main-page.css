@@ -1,5 +1,5 @@
 .main-section{
-      background-image: url('./image/bg1.jpg');
+      background-image: url('image/bg1.jpg');
       width: 100%;
       background-repeat: no-repeat;
       background-size: cover;
