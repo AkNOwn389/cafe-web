@@ -1,0 +1,14 @@
+.menu-grid-container{
+      display: grid;
+      width: 100%;
+      padding: 8px;
+      flex-wrap: wrap;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 1rem;
+}
+
+@media (min-width: 600px) {
+      .menu-grid-container{
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      }
+}

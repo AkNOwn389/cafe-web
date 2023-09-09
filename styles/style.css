@@ -26,6 +26,10 @@
   --size-10xl: 10rem;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
