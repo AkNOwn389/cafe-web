@@ -17,6 +17,10 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+        />
     </head>
     <body>
         <header class="main-header">
@@ -102,13 +106,30 @@
                 <div class="title-container">
                     <h1 class="best-menu-title-text">Blog's and News</h1>
                     <p class="best-menu-paragraph">
-                        Welcome to our Blogs section! Here, we take you on a journey through the exciting world of technology, gaming, and all things web-related. Dive into informative articles, discover the latest trends, and stay updated with our expert insights. Whether you're a tech enthusiast, a gaming aficionado, or simply curious about the digital realm, our blogs have something for everyone. Explore, learn, and engage with our captivating content, crafted with your interests in mind. Join us as we unravel the fascinating stories and insights that shape the digital landscape.
+                        Welcome to our Blogs section! Here, we take you on a
+                        journey through the exciting world of technology,
+                        gaming, and all things web-related. Dive into
+                        informative articles, discover the latest trends, and
+                        stay updated with our expert insights. Whether you're a
+                        tech enthusiast, a gaming aficionado, or simply curious
+                        about the digital realm, our blogs have something for
+                        everyone. Explore, learn, and engage with our
+                        captivating content, crafted with your interests in
+                        mind. Join us as we unravel the fascinating stories and
+                        insights that shape the digital landscape.
                     </p>
                 </div>
-                <div class="blogsAndNews-grid-container"></div>
+                <div class="blogsAndNewsSwiper swiper">
+                    <div class="blogsAndNews-container swiper-wrapper">
+                    </div>
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev swiper-navBtn"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
             </section>
             <section class="resto"></section>
         </main>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
         <script type="module" src="./main.js"></script>
     </body>
 </html>

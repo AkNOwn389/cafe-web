@@ -81,6 +81,15 @@ img{
   background-color: var(--clr-brown300);
 }
 
+.loading {
+  filter: blur(30px) grayscale(100%);
+}
+
+.loaded {
+  filter: blur(0) grayscale(0);
+  transition: 0.3s ease-in-out;
+}
+
 
 /* xs */
 /* @media (min-width: 475px) {} */

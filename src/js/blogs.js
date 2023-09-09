@@ -12,22 +12,24 @@ export function displayBlogs() {
       }
 
       function populateGrid(menuData) {
-            const gridContainer = document.querySelector('.blogsAndNews-grid-container');
+            const gridContainer = document.querySelector('.blogsAndNews-container');
 
             menuData.forEach((item) => {
                   const menuItem = document.createElement('div');
-                  menuItem.className = 'blogs-menu-items';
+                  menuItem.className = 'swiper-slide box';
 
                   menuItem.innerHTML = `
-                <div class="menu-items-image-container">
-                  <img src="${item.imageSrc}" alt="${item.name}" class="menu-image">
-                </div>
-                <div class="blog-item-description-container">
-                  <h3 class="blog-item-name">${item.name}</h3>
-                  <p class="blog-item-description">${item.description}</p>
-                  <button class="blogs-item Button">Watch</button>
-                </div>
-              `;
+                  <div class="blogs-image-container">
+                        <img src="https://fakeimg.pl/300x400" class="lazy loading" data-src="${item.imageSrc}" alt="${item.name}"/>
+                  </div>
+                  <div class="description-container">
+                        <h3 class="blog-item-title">${item.name}</h3>
+                        <p class="blog-item-description">${item.description}</p>
+                        <button class="blog-item-watch-button Button">
+                        Watch
+                        </button>
+                  </div>
+                  `;
 
                   gridContainer.appendChild(menuItem);
             });
