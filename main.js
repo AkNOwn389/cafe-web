@@ -7,6 +7,8 @@ import './styles/best-menus.css';
 
 import { searchBarOpener } from './src/js/search-bar';
 import { mobileNavOpener } from './src/js/mobile-nav';
+import { displayedBestMenu } from './src/js/best-menu';
 
 searchBarOpener();
 mobileNavOpener();
+displayedBestMenu();

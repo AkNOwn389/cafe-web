@@ -1,0 +1,115 @@
+.best-menus{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+}
+.title-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+
+.title-container h1 {
+      text-align: center;
+      font-size: var(--size-4xl);
+      margin-bottom: 0;
+}
+
+.title-container p {
+      text-align: center;
+      color: var(--clr-light);
+      font-size: var(--size-sm);
+      padding: 15px;
+      max-width: 80vh;
+}
+
+.best-menu-grid-container{
+      display: grid;
+      width: 100%;
+      padding: 8px;
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      grid-gap: 1rem;
+}
+
+.menu-items{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+
+.menu-items-image-container{
+      width: 100%;
+      max-width: 400px;
+      max-height: 400px;
+      height: 100%;
+      object-fit: cover;
+      flex-grow: 1;
+}
+
+.item-description-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+.menu-item-name{
+      font-size: var(--size-3xl);
+      color: var(--clr-light);
+      margin-bottom: 0;
+      
+}
+
+.menu-item-price{
+      text-align: start;
+      font-size: var(--size-2xl);
+      color: var(--clr-light);
+      margin-bottom: 0;
+}
+
+.menu-item-price-text{
+      color: var(--clr-light);
+      font-size: var(--size-base);
+}
+
+.menu-item-description{
+      font-size: var(--size-sm);
+      color: var(--clr-light);
+      padding-right: 20px;
+      padding-left: 20px;
+      max-width: 80vh;
+      text-align: center;
+}
+
+
+
+
+
+
+/* xs */
+/* @media (min-width: 475px) {} */
+/* sm */
+/* @media (min-width: 640px) {} */
+/* md */
+/* @media (min-width: 768px) {} */
+
+@media (min-width: 800px) {
+      .menu-items{
+            flex-direction: row;
+            
+      }
+      .item-description-container{
+            justify-content: start;
+            height: 100%;
+      }
+}
+/* lg*/
+/* @media (min-width: 1024px) {} */
+/* xl */
+/* @media (min-width: 1280px) {} */
+/* 2xl */
+/* @media (min-width: 1536px) {} */
