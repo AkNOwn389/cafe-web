@@ -24,6 +24,7 @@
       font-size: var(--size-sm);
       max-width: 50vh;
       margin-bottom: 200px;
+      
 }
 
 /* lower */
@@ -71,6 +72,7 @@
             color: var(--clr-light);
             font-size: var(--size-sm);
             max-width: 40vh;
+            margin-right: 50px;
       }
       .main-section{
             background-position: 60%;
@@ -92,6 +94,7 @@
             color: var(--clr-light);
             font-size: var(--size-sm);
             max-width: 50vh;
+            margin-right: 20px;
       }
       .main-section{
             background-position: 60%;
