@@ -20,7 +20,7 @@ export function displayedBestMenu() {
 
                   menuItem.innerHTML = `
                 <div class="menu-items-image-container">
-                  <img src="https://fakeimg.pl/200x300" data-src="${item.imageSrc}" alt="${item.name}" class="menu-image lazy loading"/>
+                  <img src="${item.imageSrc}" alt="${item.name}" class="menu-image lazy__"/>
                 </div>
                 <div class="item-description-container">
                   <h3 class="menu-item-name">${item.name}</h3>

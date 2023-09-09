@@ -20,14 +20,14 @@ export function displayBlogs() {
 
                   menuItem.innerHTML = `
                   <div class="blogs-image-container">
-                        <img src="https://fakeimg.pl/300x400" class="lazy loading" data-src="${item.imageSrc}" alt="${item.name}"/>
+                  <img class="Lazy" src="${item.imageSrc}" alt="${item.name}"/>
                   </div>
                   <div class="description-container">
-                        <h3 class="blog-item-title">${item.name}</h3>
-                        <p class="blog-item-description">${item.description}</p>
-                        <button class="blog-item-watch-button Button">
-                        Watch
-                        </button>
+                  <h3 class="blog-item-title">${item.name}</h3>
+                  <p class="blog-item-description">${item.description}</p>
+                  <button class="blog-item-watch-button Button">
+                  Watch
+                  </button>
                   </div>
                   `;
 

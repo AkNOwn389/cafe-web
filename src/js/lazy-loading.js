@@ -1,19 +1,22 @@
-export function lazyLoading() {
-    const lazyImgs = document.querySelectorAll('.lazy');
+const lazyLoading = () => {
+    const lazyImgs = document.querySelectorAll('.Lazy');
 
     const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
-            if (entry.isIntersecting) {
+            if(entry.isIntersecting) {
                 let img = entry.target;
                 img.src = img.dataset.src;
-                img.classList.remove('loading'); // Remove the dot before class names
-                img.classList.add('loaded'); // Remove the dot before class names
+                img.classList.remove('loading');
+                img.classList.add('loaded');
                 observer.unobserve(img);
             }
         });
     });
 
     lazyImgs.forEach(img => {
+        console.log(img.classList)
         observer.observe(img);
     });
-}
+};
+
+export default lazyLoading;

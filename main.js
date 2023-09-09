@@ -12,14 +12,14 @@ import { mobileNavOpener } from './src/js/mobile-nav';
 import { displayedBestMenu } from './src/js/best-menu';
 import { displayMenu } from './src/js/our-menu';
 import { displayBlogs } from './src/js/blogs';
-import { lazyLoading } from './src/js/lazy-loading';
+import lazyLoading from './src/js/lazy-loading';
 
 searchBarOpener();
 mobileNavOpener();
 displayedBestMenu();
 displayMenu();
 displayBlogs();
-//lazyLoading();
+lazyLoading();
 
 
 var swiper = new Swiper(".blogsAndNewsSwiper", {
