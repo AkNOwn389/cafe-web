@@ -3,48 +3,48 @@
         "name": "Espresso",
         "imageSrc": "./img/Espresso.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-        "price": "30 Pesos"
+        "price": "100 Pesos"
     },
     {
         "name": "Latte",
         "imageSrc": "./img/latte.jpeg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-        "price": "40 Pesos"
+        "price": "150 Pesos"
     },
     {
         "name": "Mocha",
         "imageSrc": "./img/mocha.jpeg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-        "price": "35 Pesos"
+        "price": "140 Pesos"
     },
     {
         "name": "Flat-white",
         "imageSrc": "./img/flat-white.jpeg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-        "price": "40 Pesos"
+        "price": "125 Pesos"
     },
     {
         "name": "Panna",
         "imageSrc": "./img/espresso_con_panna.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-        "price": "47 Pesos"
+        "price": "130 Pesos"
     },
     {
         "name": "Macchiato",
         "imageSrc": "./img/espreso-macchiato.jpeg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-        "price": "50 Pesos"
+        "price": "175 Pesos"
     },
     {
         "name": "Cappuccino",
         "imageSrc": "./img/cappuccino.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-        "price": "50 Pesos"
+        "price": "160 Pesos"
     },
     {
         "name": "Breve",
         "imageSrc": "./img/Breve.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-        "price": "37 Pesos"
+        "price": "150 Pesos"
     }
 ]

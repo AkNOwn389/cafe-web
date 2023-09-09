@@ -50,6 +50,7 @@
       height: 100%;
       object-fit: cover;
       flex-grow: 1;
+      border-radius: 3px;
 }
 
 .item-description-container{
