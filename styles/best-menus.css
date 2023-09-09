@@ -70,13 +70,18 @@
       font-size: var(--size-2xl);
       color: var(--clr-light);
       margin-bottom: 0;
+      margin-top: 0;
 }
 
 .menu-item-price-text{
       color: var(--clr-light);
       font-size: var(--size-base);
+      margin-top: 10px;
 }
-
+.menu-item-buy-now{
+      margin-top: 0;
+      margin-bottom: 10px;
+}
 .menu-item-description{
       font-size: var(--size-sm);
       color: var(--clr-light);
