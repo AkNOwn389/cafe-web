@@ -1,32 +1,42 @@
 [
     {
+        "id": 2,
         "name": "Latte",
         "imageSrc": "./img/latte.jpeg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-        "price": "150 Pesos"
+        "description": "Thanks to their versatility in customization, Lattes are among the most popular coffee choices. Anything from sweet to herbal can be added to them, and latte art can be added to complete the drink. Lattes are similar to cappuccinos because they are also made with espresso, steamed milk, and milk foam.",
+        "price": "150 Pesos",
+        "buttonName": "Order now"
     },
     {
+        "id": 4,
         "name": "Flat-white",
         "imageSrc": "./img/flat-white.jpeg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-        "price": "125 Pesos"
+        "price": "125 Pesos",
+        "buttonName": "Order now"
     },
     {
+        "id": 5,
         "name": "Panna",
         "imageSrc": "./img/espresso_con_panna.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-        "price": "130 Pesos"
+        "price": "130 Pesos",
+        "buttonName": "Order now"
     },
     {
+        "id": 7,
         "name": "Cappuccino",
         "imageSrc": "./img/cappuccino.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-        "price": "160 Pesos"
+        "description": "Cappuccinos are a fan favorite when visiting coffee shops. This is especially the case because of the latte art decorations that are often drawn into the steamed milk foam.",
+        "price": "160 Pesos",
+        "buttonName": "Order now"
     },
     {
+        "id": 8,
         "name": "Breve",
         "imageSrc": "./img/Breve.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-        "price": "150 Pesos"
+        "price": "150 Pesos",
+        "buttonName": "Order now"
     }
 ]

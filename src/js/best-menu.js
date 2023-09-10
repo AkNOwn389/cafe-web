@@ -27,7 +27,7 @@ export function displayedBestMenu() {
                   <p class="menu-item-description">${item.description}</p>
                   <h3 class="menu-item-price">Price</h3>
                   <h4 class="menu-item-price-text">${item.price}</h4>
-                  <button class="menu-item-buy-now Button">Order now</button>
+                  <button class="menu-item-buy-now Button">${item.buttonName}</button>
                 </div>
               `;
 

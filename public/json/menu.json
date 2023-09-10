@@ -1,51 +1,114 @@
 [
-      {
-          "name": "Espresso",
-          "imageSrc": "./img/Espresso.jpg",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-          "price": "100 Pesos"
-      },
-      {
-          "name": "Latte",
-          "imageSrc": "./img/latte.jpeg",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-          "price": "150 Pesos"
-      },
-      {
-          "name": "Mocha",
-          "imageSrc": "./img/mocha.jpeg",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-          "price": "140 Pesos"
-      },
-      {
-          "name": "Flat-white",
-          "imageSrc": "./img/flat-white.jpeg",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-          "price": "125 Pesos"
-      },
-      {
-          "name": "Panna",
-          "imageSrc": "./img/espresso_con_panna.jpg",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-          "price": "130 Pesos"
-      },
-      {
-          "name": "Macchiato",
-          "imageSrc": "./img/espreso-macchiato.jpeg",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-          "price": "175 Pesos"
-      },
-      {
-          "name": "Cappuccino",
-          "imageSrc": "./img/cappuccino.jpg",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-          "price": "160 Pesos"
-      },
-      {
-          "name": "Breve",
-          "imageSrc": "./img/Breve.jpg",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
-          "price": "150 Pesos"
-      }
-  ]
-  
+    {
+        "id": 1,
+        "name": "Espresso",
+        "imageSrc": "./img/Espresso.jpg",
+        "description": "Espresso is not necessarily a type of coffee, but a way to make coffee. The difference is the amount of water used to make espressos versus regularly brewed coffee.\nBecause they are made with a shot of water instead of a liter of water per cup of ground coffee, espressos are basically highly concentrated coffee. Because of this, you can expect espressos to have a more heightened array of flavors compared to your regular cup of coffee.",
+        "price": "100 Pesos",
+        "buttonName": "Order now"
+    },
+    {
+        "id": 2,
+        "name": "Latte",
+        "imageSrc": "./img/latte.jpeg",
+        "description": "Thanks to their versatility in customization, Lattes are among the most popular coffee choices. Anything from sweet to herbal can be added to them, and latte art can be added to complete the drink. Lattes are similar to cappuccinos because they are also made with espresso, steamed milk, and milk foam.",
+        "price": "150 Pesos",
+        "buttonName": "Order now"
+    },
+    {
+        "id": 3,
+        "name": "Mocha",
+        "imageSrc": "./img/mocha.jpeg",
+        "description": "It is a top choice when you want to satisfy your sweet tooth needs. This is another type of espresso beverage, and aptly named for its pleasant combination of sweet chocolate meeting the roasted goodness coffee Mochas are made with the expected shot of espresso and hot milk, but completed with chocolate additions, and whipped cream at the top.",
+        "price": "140 Pesos",
+        "buttonName": "Order now"
+    },
+    {
+        "id": 4,
+        "name": "Flat-white",
+        "imageSrc": "./img/flat-white.jpeg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
+        "price": "125 Pesos",
+        "buttonName": "Order now"
+    },
+    {
+        "id": 5,
+        "name": "Panna",
+        "imageSrc": "./img/espresso_con_panna.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
+        "price": "130 Pesos",
+        "buttonName": "Order now"
+    },
+    {
+        "id": 6,
+        "name": "Macchiato",
+        "imageSrc": "./img/espreso-macchiato.jpeg",
+        "description": "A fan favorite of coffee drinkers who enjoy the bitterness that naturally comes in coffee. There are two different ways to make this drink: more espresso than milk to make an espresso macchiato, or more milk than espresso to make a latte macchiato.",
+        "price": "175 Pesos",
+        "buttonName": "Order now"
+    },
+    {
+        "id": 7,
+        "name": "Cappuccino",
+        "imageSrc": "./img/cappuccino.jpg",
+        "description": "Cappuccinos are a fan favorite when visiting coffee shops. This is especially the case because of the latte art decorations that are often drawn into the steamed milk foam.",
+        "price": "160 Pesos",
+        "buttonName": "Order now"
+    },
+    {
+        "id": 8,
+        "name": "Breve",
+        "imageSrc": "./img/Breve.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Aliquid maxime accusantium aspernatureos laborum exercitationem illum commodi, dolores dolore saepe quam, reprehenderit necessitatibus magni tempore",
+        "price": "150 Pesos",
+        "buttonName": "Order now"
+    },
+    {
+        "id": 9,
+        "name": "Affogato",
+        "imageSrc": "./img/Affogato.jpg",
+        "description": "Affogato technically is not a beverage, but it is still coffee-based. Affogato is actually a dessert that is meant to either be slowly sipped or enjoyed with a spoon. It is typically made with vanilla gelato or ice cream as the primary dessert and completed with a shot of hot espresso.",
+        "price": "200 Pesos",
+        "buttonName": "Order now"
+    },
+    {
+        "id": 10,
+        "name": "Black Coffee",
+        "imageSrc": "./img/black-coffee.jpg",
+        "description": "Black coffee is the simplest and healthiest coffee type available. The ground coffee beans are steamed by hot water within a drip machine, and that is it. Because it is served as is, the coffee will taste strong, and be at its most bitter.",
+        "price": "50 Pesos",
+        "buttonName": "Order now"
+    },
+    {
+        "id": 11,
+        "name": "Cold Brew",
+        "imageSrc": "./img/cold-brew.jpeg",
+        "description": "Cold brew coffee is a popular type of coffee all in itself, too. It is also an extremely popular type of coffee.",
+        "price": "130 Pesos",
+        "buttonName": "Order now"
+    },
+    {
+        "id": 12,
+        "name": "Iced Vanilla Latte",
+        "imageSrc": "./img/Iced-Vanilla-Latte-2-3.jpg",
+        "description": "An iced latte is a fairly simple drink to make, similar to an iced coffee. To make iced lattes, you just need to blend a chilled espresso drink, the desired amount of sweetener, milk, and ice.",
+        "price": "190 Pesos",
+        "buttonName": "Order now"
+    },
+    {
+        "id": 13,
+        "name": "Mazagran",
+        "imageSrc": "./img/Mazagran.jpeg",
+        "description": "Mazagrans is an interesting combination of coffee, ice. Lime juice, and water. It can be a strange experience the first time you try it. But it may quickly grow on you. Originally, the mazagran was mixed with some alcohol, such as brandy or rum. Many believe the mazagran is even the origin of iced coffee.",
+        "price": "130 Pesos",
+        "buttonName": "Order now"
+    },
+    {
+        "id": 14,
+        "name": "Nitro Cold Brew",
+        "imageSrc": "./img/Nitro-Cold-Brew.jpeg",
+        "description": "The nitro cold brew is similar to the original cold brew coffee, except it is made with nitrogen. This gives the coffee more of a rich, creamy finish that is reminiscent of nitro draft beers like the Guinness. Because of this, you will be greeted with a thicker, frothy texture.",
+        "price": "180 Pesos",
+        "buttonName": "Order now"
+    }
+]

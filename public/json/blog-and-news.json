@@ -2,26 +2,31 @@
     {
         "name": "Coffee Beans 101: A Beginner's Guide to Coffee Varieties",
         "imageSrc": "https://img.freepik.com/free-photo/roasted-coffee-beans-cup-coffee_51137-3749.jpg?size=626&ext=jpg",
-        "description": "Mag-explore ng mga iba't ibang klase ng kape mula sa buong mundo. Tuklasin ang mga natatanging lasa at aroma ng bawat variety."
+        "description": "Mag-explore ng mga iba't ibang klase ng kape mula sa buong mundo. Tuklasin ang mga natatanging lasa at aroma ng bawat variety.",
+        "buttonName": "Watch"
     },
     {
         "name": "The Art of Brewing: Mastering Your Morning Coffee at Home",
         "imageSrc": "https://papascoffee.org/wp-content/uploads/coffee-brewing-method.jpg",
-        "description": "Matutunan ang mga sikreto sa tamang pamamaraan ng paggawa ng masarap na kape sa inyong tahanan. Kasama ang mga tips mula sa aming mga barista."
+        "description": "Matutunan ang mga sikreto sa tamang pamamaraan ng paggawa ng masarap na kape sa inyong tahanan. Kasama ang mga tips mula sa aming mga barista.",
+        "buttonName": "Watch"
     },
     {
         "name": "Coffee and Your Health: Surprising Benefits of Your Daily Brew",
         "imageSrc": "https://live.staticflickr.com/3534/3983422702_d71b6998e2.jpg",
-        "description": "Alamin ang mga positibong epekto ng pag-inom ng kape sa kalusugan. Makipag-ugnayan sa aming mga eksperto tungkol dito."
+        "description": "Alamin ang mga positibong epekto ng pag-inom ng kape sa kalusugan. Makipag-ugnayan sa aming mga eksperto tungkol dito.",
+        "buttonName": "Watch"
     },
     {
         "name": "The Perfect Pairing: Coffee and Desserts at Our Cafe",
         "imageSrc": "https://delishcooking101.com/wp-content/uploads/2020/12/coffee-and-desserts-new-pairing-coffee-with-dessert-a-sweet-love-story-of-coffee-and-desserts.jpg",
-        "description": "Mag-enjoy ng masarap na kape kasama ang aming mga paboritong desserts. Alamin kung paano pumili ng tamang kombinasyon."
+        "description": "Mag-enjoy ng masarap na kape kasama ang aming mga paboritong desserts. Alamin kung paano pumili ng tamang kombinasyon.",
+        "buttonName": "Watch"
     },
     {
         "name": "From Farm to Cup: The Journey of Our Coffee Beans",
         "imageSrc": "https://images.idgesg.net/images/article/2019/05/farmer_collecting_coffee_beans_harvesting_crops_colombia_by_-andresr_gettyimages-538908436_2400x1600-100795688-large.jpg",
-        "description": "Sundan ang buhay ng aming kape, mula sa pag-ani ng mga kape beans sa mga kapehan hanggang sa paghahanda ng inyong tasa ng kape."
+        "description": "Sundan ang buhay ng aming kape, mula sa pag-ani ng mga kape beans sa mga kapehan hanggang sa paghahanda ng inyong tasa ng kape.",
+        "buttonName": "Watch"
     }
 ]

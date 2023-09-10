@@ -1,0 +1,114 @@
+.cutomer-feedback-container {
+      width: 100%;
+}
+
+.customer-feedback-wrapper {
+      width: 100%;
+}
+
+.user-feed-box {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      background-color: var(--clr-brown);
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+      margin: 10px;
+      max-width: 300px;
+      color: var(--clr-light);
+}
+
+.user-feed-box .user-name {
+      color: var(--clr-light);
+      font-size: var(--size-lg);
+      margin-top: 5px;
+}
+
+.user-feed-box h3 {
+      font-size: var(--size-base);
+      margin: 3px;
+}
+
+.rate-container {
+      display: flex;
+}
+
+.user-feedback {
+      font-size: var(--size-sm);
+      margin-top: 5px;
+}
+
+.add-your-feedback-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 50px;
+      width: 100%;
+}
+
+.give-your-feedback-title{
+      font-size: var(--size-lg);
+}
+
+.feedback-form {
+      text-align: center;
+      padding: 20px;
+      background-color: var(--clr-brown600);
+      border-radius: 10px;
+      max-width: 600px;
+      margin-left: 20px;
+      margin-right: 20px;
+}
+
+.rating-options {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+}
+
+.rating-options label {
+      cursor: pointer;
+}
+
+#name,
+#feedback {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      background: var(--clr-light);
+      border: none;
+      font-size: var(--size-base);
+}
+
+#submit-feedback {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+}
+
+.spinner {
+      border: 4px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      border-top: 4px solid #007bff;
+      width: 40px;
+      height: 40px;
+      animation: spin 2s linear infinite;
+      margin: 0 auto;
+      margin-top: 20px;
+}
+
+@keyframes spin {
+      0% {
+            transform: rotate(0deg);
+      }
+
+      100% {
+            transform: rotate(360deg);
+      }
+}

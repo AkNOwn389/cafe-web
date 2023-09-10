@@ -6,26 +6,7 @@
       justify-content: center;
       margin-top: 10px;
 }
-.title-container{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-}
 
-.title-container h1 {
-      text-align: center;
-      font-size: var(--size-4xl);
-      margin-bottom: 0;
-}
-
-.title-container p {
-      text-align: center;
-      color: var(--clr-light);
-      font-size: var(--size-sm);
-      padding: 15px;
-      max-width: 80vh;
-}
 
 .best-menu-grid-container{
       display: grid;

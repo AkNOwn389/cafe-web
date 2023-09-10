@@ -25,9 +25,7 @@ export function displayBlogs() {
                   <div class="description-container">
                   <h3 class="blog-item-title">${item.name}</h3>
                   <p class="blog-item-description">${item.description}</p>
-                  <button class="blog-item-watch-button Button">
-                  Watch
-                  </button>
+                  <button class="blog-item-watch-button Button">${item.buttonName}</button>
                   </div>
                   `;
 
@@ -54,4 +52,54 @@ export function displayBlogs() {
             });
       }
       fetchMenuData();
+      var swiper = new Swiper(".blogsAndNewsSwiper", {
+            spaceBetween: 60,
+            loop: true,
+            centeredSlides: true,
+            fade: true,
+            grabCursor: true,
+            autoplay: {
+                  delay: 9500,
+                  disableOnInteraction: false,
+            },
+            pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+                  dynamicBullets: true,
+            },
+            navigation: {
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+                  clickable: true,
+            },
+            breakpoints: {
+                  0: {
+                        slidesPerView: 1,
+                  },
+                  768: {
+                        slidesPerView: 2,
+                        spaceBetween: -40,
+                  },
+                  900: {
+                        spaceBetween: -60,
+                  },
+                  1050: {
+                        slidesPerView: 3,
+                        spaceBetween: -60,
+                  },
+                  1350: {
+                        slidesPerView: 4,
+                        spaceBetween: -100,
+                  },
+                  1600: {
+                        spaceBetween: -200,
+                  },
+                  1700: {
+                        spaceBetween: -300,
+                  },
+                  1800: {
+                        spaceBetween: -400,
+                  },
+            },
+      });
 };
