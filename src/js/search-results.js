@@ -2,6 +2,7 @@ export function SearchEngine() {
       const searchButton = document.querySelector('.input-text-bar');
       const resultsContainer = document.querySelector('.result-container');
       const resultTitle = document.querySelector('.result-title-text');
+      const resultSection = document.querySelector('.search-results');
 
       searchButton.addEventListener('input', handleSearch)
 
@@ -19,8 +20,10 @@ export function SearchEngine() {
                         if(searchTerm === ''){
                               resultTitle.style.display = 'none';
                               resultsContainer.innerHTML = ``;
+                              resultSection.style.display = 'none';
                               return;
                         };
+                        resultSection.style.display = 'flex';
                         const results = jsonData.filter(item => item.name.toLowerCase().includes(searchTerm));
                         // Clear the previous results
                         resultsContainer.innerHTML = '';
