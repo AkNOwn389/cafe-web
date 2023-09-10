@@ -1,0 +1,32 @@
+[
+      {
+            "name": "Darius Gabriel",
+            "feedback": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae cum quam ipsa dolore veniam assumenda error delectus odit distinctio similique mollitia itaque maiores, dignissimos rem facere dolorum laborum maxime!",
+            "rate": "Very Good"
+      },
+      {
+            "name": "Carla Ortoste",
+            "feedback": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae cum quam ipsa dolore veniam assumenda error delectus odit distinctio similique mollitia itaque maiores, dignissimos rem facere dolorum laborum maxime!",
+            "rate": "Good"
+      },
+      {
+            "name": "Duffnie",
+            "feedback": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae cum quam ipsa dolore veniam assumenda error delectus odit distinctio similique mollitia itaque maiores, dignissimos rem facere dolorum laborum maxime!",
+            "rate": "Very Good"
+      },
+      {
+            "name": "Jhon Doe",
+            "feedback": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae cum quam ipsa dolore veniam assumenda error delectus odit distinctio similique mollitia itaque maiores, dignissimos rem facere dolorum laborum maxime!",
+            "rate": "Good"
+      },
+      {
+            "name": "Wilson",
+            "feedback": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae cum quam ipsa dolore veniam assumenda error delectus odit distinctio similique mollitia itaque maiores, dignissimos rem facere dolorum laborum maxime!",
+            "rate": "Good"
+      },
+      {
+            "name": "Michael",
+            "feedback": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae cum quam ipsa dolore veniam assumenda error delectus odit distinctio similique mollitia itaque maiores, dignissimos rem facere dolorum laborum maxime!",
+            "rate": "Very Good"
+      }
+]

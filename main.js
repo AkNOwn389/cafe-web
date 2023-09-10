@@ -9,7 +9,9 @@ import './styles/menu.css';
 import './styles/blogsNews.css';
 import './styles/search-result.css';
 import './styles/feeds.css';
-
+import './styles/about-us.css';
+import './styles/contact.css';
+import './styles/footer.css';
 
 import { searchBarOpener } from './src/js/search-bar';
 import { mobileNavOpener } from './src/js/mobile-nav';
@@ -19,6 +21,8 @@ import { displayMenu } from './src/js/our-menu';
 import { displayBlogs } from './src/js/blogs';
 import lazyLoading from './src/js/lazy-loading';
 import { SearchEngine } from './src/js/search-results';
+import { feedBackEngine } from './src/js/feeds';
+import { loadFeedBack } from './src/js/feeds';
 
 searchBarOpener();
 mobileNavOpener();
@@ -28,6 +32,8 @@ displayMenu();
 displayBlogs();
 SearchEngine();
 lazyLoading();
+feedBackEngine();
+loadFeedBack();
 
 var swiper = new Swiper(".our-stuff-container", {
     effect: "coverflow",
@@ -73,6 +79,12 @@ var swiper = new Swiper(".our-stuff-container", {
           0: {
                 slidesPerView: 1,
           },
+          750: {
+            slidesPerView: 2,
+          },
+          1000: {
+            slidesPerView: 3,
+          }
     },
 });
 
