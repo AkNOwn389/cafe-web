@@ -20,7 +20,7 @@ export function displayBlogs() {
 
                   menuItem.innerHTML = `
                   <div class="blogs-image-container">
-                  <img class="Lazy" src="${item.imageSrc}" alt="${item.name}"/>
+                  <img class="lazy-image loading" src="https://fakeimg.pl/300x400" data-src="${item.imageSrc}" alt="${item.name}"/>
                   </div>
                   <div class="description-container">
                   <h3 class="blog-item-title">${item.name}</h3>
@@ -32,6 +32,25 @@ export function displayBlogs() {
                   `;
 
                   gridContainer.appendChild(menuItem);
+            });
+            const lazyImgs = document.querySelectorAll('.lazy-image');
+            const observer = new IntersectionObserver(
+                  (entries, observer) => {
+                        entries.forEach((entry) => {
+                              if (entry.isIntersecting) {
+                                    let img = entry.target;
+                                    img.src = img.dataset.src;
+                                    img.classList.remove('loading');
+                                    img.classList.add('loaded');
+                                    observer.unobserve(img);
+                              }
+                        });
+                  }
+            );
+
+            lazyImgs.forEach((img) => {
+                  console.log(img.classList);
+                  observer.observe(img);
             });
       }
       fetchMenuData();

@@ -20,7 +20,7 @@ export function displayedBestMenu() {
 
                   menuItem.innerHTML = `
                 <div class="menu-items-image-container">
-                  <img src="${item.imageSrc}" alt="${item.name}" class="menu-image lazy__"/>
+                  <img data-src="${item.imageSrc}" src="https://fakeimg.pl/300x400" alt="${item.name}" class="menu-image lazy-image loading"/>
                 </div>
                 <div class="item-description-container">
                   <h3 class="menu-item-name">${item.name}</h3>
@@ -32,6 +32,25 @@ export function displayedBestMenu() {
               `;
 
                   gridContainer.appendChild(menuItem);
+            });
+            const lazyImgs = document.querySelectorAll('.lazy-image');
+            const observer = new IntersectionObserver(
+                  (entries, observer) => {
+                        entries.forEach((entry) => {
+                              if (entry.isIntersecting) {
+                                    let img = entry.target;
+                                    img.src = img.dataset.src;
+                                    img.classList.remove('loading');
+                                    img.classList.add('loaded');
+                                    observer.unobserve(img);
+                              }
+                        });
+                  }
+            );
+
+            lazyImgs.forEach((img) => {
+                  console.log(img.classList);
+                  observer.observe(img);
             });
       }
       fetchMenuData();

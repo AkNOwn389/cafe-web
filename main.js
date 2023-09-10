@@ -15,12 +15,11 @@ import { displayMenu } from './src/js/our-menu';
 import { displayBlogs } from './src/js/blogs';
 import lazyLoading from './src/js/lazy-loading';
 import { SearchEngine } from './src/js/search-results';
-
+displayMenu();
+displayBlogs();
 searchBarOpener();
 mobileNavOpener();
 displayedBestMenu();
-displayMenu();
-displayBlogs();
 lazyLoading();
 SearchEngine();
 
