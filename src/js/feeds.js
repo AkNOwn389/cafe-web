@@ -18,33 +18,36 @@ export function feedBackEngine() {
             // Sa pag-submit, ipakita ang spinner habang nagwo-work
             spinner.style.display = "block";
             feedbackForm.style.display = "none";
-            // fetch('https://shop-project-one.vercel.app/api/feedback/', {
-            //       method: 'POST',
-            //       headers: {
-            //             'Content-Type': 'application/json',
-            //             'X-CSRFToken': csrf_token,  // Maaari mong kunin mula sa template
-            //       },
-            //       body: JSON.stringify(feedbackData),
-            // })
-            //       .then(response => response.json())
-            //       .then(data => {
-            //             if (data.status) {
-            //                   // Feedback was submitted successfully
-            //                   console.log('Feedback submitted:', data.message);
-            //             } else {
-            //                   // May error sa pag-submit ng feedback
-            //                   console.error('Error:', data.message);
-            //             }
-            //       })
-            //       .catch(error => {
-            //             console.error('Error:', error);
-            //       });
+            fetch('https://shop-project-one.vercel.app/api/feedback/', {
+                  method: 'POST',
+                  headers: {
+                        'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify(feedbackData),
+            })
+                  .then(response => response.json())
+                  .then(data => {
+                        if (data.status) {
+                              // Feedback was submitted successfully
+                              console.log('Feedback submitted:', data.message);
+                              spinner.style.display = "none";
+                              feedbackForm.style.display = "block";
+                              feedbackForm.innerHTML = "<h3>Thankyou for your feedback!</h3>";
+                        } else {
+                              // May error sa pag-submit ng feedback
+                              console.error('Error:', data.message);
+                              spinner.style.display = "none";
+                              feedbackForm.style.display = "block";
+                              feedbackForm.innerHTML = "<h3 style='color: red;'>Something went wrong.</h3>";
+                        }
+                  })
+                  .catch(error => {
+                        console.error('Error:', error);
+                  });
             // Pagkatapos ng pag-submit, puwede mong itago ang spinner at magpakita ng mensahe na "Thank you for your feedback!"
-            setTimeout(function () {
-                  spinner.style.display = "none";
-                  feedbackForm.style.display = "block";
-                  feedbackForm.innerHTML = "<h3>Thankyou for your feedback!</h3>";
-            }, 2000); // I-adjust ang oras ng pagtatapos base sa iyong preference
+            // setTimeout(function () {
+                  
+            // }, 2000); // I-adjust ang oras ng pagtatapos base sa iyong preference
       });
 };
 
