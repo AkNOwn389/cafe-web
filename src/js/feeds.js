@@ -22,7 +22,7 @@ export function feedBackEngine() {
                   method: 'POST',
                   headers: {
                         'Content-Type': 'application/json',
-                        'Referer': 'https://example.com/previous-page'
+                        'Referer': 'https://darius-cafe-web.vercel.app/'
                   },
                   body: JSON.stringify(feedbackData),
             })
