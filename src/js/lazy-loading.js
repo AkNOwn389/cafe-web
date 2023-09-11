@@ -1,5 +1,4 @@
 const lazyLoading = () => {
-    console.log("Testing");
     const lazyImgs = document.querySelectorAll('.lazy');
 
     const observer = new IntersectionObserver((entries, observer) => {

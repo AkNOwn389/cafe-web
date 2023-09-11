@@ -50,11 +50,16 @@ export function feedBackEngine() {
 
 export function loadFeedBack() {
       function fetchMenuData() {
-            return fetch('./json/feedback.json')
+            return fetch('https://shop-project-one.vercel.app/api/get-feedback', {
+                  method: 'GET',
+                  headers: {
+                        'Content-Type': 'application/json',
+                  },
+            })
                   .then((response) => response.json())
                   .then((data) => {
-                        // Call a function to populate the grid with the data
-                        populateData(data);
+                        console.log(data);
+                        populateData(data.data);
                   })
                   .catch((error) => {
                         console.error('Error fetching menu data:', error);
