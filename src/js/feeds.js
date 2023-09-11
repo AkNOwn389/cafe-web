@@ -10,18 +10,19 @@ export function feedBackEngine() {
 
             const feedbackData = {
                   name: name,
-                  feedback_text: feedback,
-                  rating: rating,  // Pumili ng isang rating
+                  feedback: feedback,
+                  rate: rating,  // Pumili ng isang rating
             };
             // Dito mo isusunod ang logic para i-send ang feedback sa server
             // Pwedeng gamitin ang Fetch API o AJAX para dito
             // Sa pag-submit, ipakita ang spinner habang nagwo-work
             spinner.style.display = "block";
             feedbackForm.style.display = "none";
-            fetch('https://shop-project-one.vercel.app/api/feedback/', {
+            fetch('https://shop-project-one.vercel.app/api/feedback', {
                   method: 'POST',
                   headers: {
                         'Content-Type': 'application/json',
+                        'Referer': 'https://example.com/previous-page'
                   },
                   body: JSON.stringify(feedbackData),
             })
@@ -46,7 +47,7 @@ export function feedBackEngine() {
                   });
             // Pagkatapos ng pag-submit, puwede mong itago ang spinner at magpakita ng mensahe na "Thank you for your feedback!"
             // setTimeout(function () {
-                  
+
             // }, 2000); // I-adjust ang oras ng pagtatapos base sa iyong preference
       });
 };
