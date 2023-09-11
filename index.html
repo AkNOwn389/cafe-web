@@ -291,10 +291,16 @@
                                 Very Bad
                             </label>
                         </div>
-                        <input type="text" id="user-name" placeholder="Your name" />
+                        <input
+                            type="text"
+                            id="user-name"
+                            placeholder="Your name"
+                            maxlength="50"
+                        />
                         <textarea
                             id="feedback-text"
                             placeholder="Feedback"
+                            maxlength="300"
                         ></textarea>
                         <button id="submit-feedback">Send</button>
                     </div>
@@ -400,7 +406,6 @@
                             <i class="fas fa-arrow-right"></i>our services</a
                         >
                     </div>
-                    
                 </div>
             </section>
             <footer class="footer_container">
@@ -412,8 +417,9 @@
                     <a href="#" class="fab fa-pinterest"></a>
                 </div>
                 <div class="credit">
-                    created by <span class="developer">Darius Gabriel </span> |all
-                    rights reserved
+                    created by
+                    <span class="developer">Darius Gabriel </span> |all rights
+                    reserved
                 </div>
             </footer>
         </main>
