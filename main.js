@@ -39,10 +39,9 @@ var swiper = new Swiper(".our-stuff-container", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
-    loop: true,
     slidesPerView: "auto",
     coverflowEffect: {
-      rotate: 50,
+      rotate: 30,
       stretch: 0,
       depth: 100,
       modifier: 1,

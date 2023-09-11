@@ -54,7 +54,6 @@ export function displayBlogs() {
       fetchMenuData();
       var swiper = new Swiper(".blogsAndNewsSwiper", {
             spaceBetween: 60,
-            loop: true,
             centeredSlides: true,
             fade: true,
             grabCursor: true,
@@ -89,19 +88,11 @@ export function displayBlogs() {
                   },
                   1350: {
                         slidesPerView: 4,
-                        spaceBetween: -100,
+                        spaceBetween: -60,
                   },
                   1600: {
-                        spaceBetween: -200,
+                        spaceBetween: -100,
                         slidesPerView: 4,
-                  },
-                  1700: {
-                        spaceBetween: -300,
-                        slidesPerView: 6,
-                  },
-                  1800: {
-                        spaceBetween: -400,
-                        slidesPerView: 7,
                   },
             },
       });
