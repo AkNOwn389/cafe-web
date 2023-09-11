@@ -4,10 +4,15 @@ export function feedBackEngine() {
       const spinner = document.querySelector(".spinner");
 
       submitButton.addEventListener("click", function () {
-            const name = document.querySelector("#name").value;
-            const feedback = document.querySelector("#feedback").value;
+            const name = document.querySelector("#user-name").value;
+            const feedback = document.querySelector("#feedback-text").value;
             const rating = document.querySelector('input[name="rating"]:checked').value;
-
+            if(name.length === 0 || feedback.length === 0 || rating.length === 0){
+                  return;
+            };
+            if(name.length < 3 || feedback.length < 3 || rating.length < 3){
+                  return;
+            };
             const feedbackData = {
                   name: name,
                   feedback: feedback,
@@ -22,7 +27,6 @@ export function feedBackEngine() {
                   method: 'POST',
                   headers: {
                         'Content-Type': 'application/json',
-                        'Referer': 'https://darius-cafe-web.vercel.app/'
                   },
                   body: JSON.stringify(feedbackData),
             })
@@ -45,10 +49,6 @@ export function feedBackEngine() {
                   .catch(error => {
                         console.error('Error:', error);
                   });
-            // Pagkatapos ng pag-submit, puwede mong itago ang spinner at magpakita ng mensahe na "Thank you for your feedback!"
-            // setTimeout(function () {
-
-            // }, 2000); // I-adjust ang oras ng pagtatapos base sa iyong preference
       });
 };
 
