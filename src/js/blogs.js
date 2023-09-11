@@ -93,12 +93,15 @@ export function displayBlogs() {
                   },
                   1600: {
                         spaceBetween: -200,
+                        slidesPerView: 4,
                   },
                   1700: {
                         spaceBetween: -300,
+                        slidesPerView: 6,
                   },
                   1800: {
                         spaceBetween: -400,
+                        slidesPerView: 7,
                   },
             },
       });

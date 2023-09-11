@@ -103,6 +103,10 @@ img{
   background-color: var(--clr-brown300);
 }
 
+.Button:active{
+  background-color: var(--clr-brown500);
+}
+
 .loading {
   filter: blur(30px) grayscale(100%);
 }
