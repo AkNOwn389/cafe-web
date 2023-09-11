@@ -43,7 +43,7 @@ export function feedBackEngine() {
                               console.error('Error:', data.message);
                               spinner.style.display = "none";
                               feedbackForm.style.display = "block";
-                              feedbackForm.innerHTML = "<h3 style='color: red;'>Something went wrong.</h3>";
+                              feedbackForm.innerHTML = "<h3 style='color: red;'>Something went wrong sorry.</h3>";
                         }
                   })
                   .catch(error => {

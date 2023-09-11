@@ -80,10 +80,10 @@ var swiper = new Swiper(".our-stuff-container", {
                 slidesPerView: 1,
           },
           750: {
-            slidesPerView: 2,
+            slidesPerView: 1,
           },
           1000: {
-            slidesPerView: 3,
+            slidesPerView: 1,
           }
     },
 });
