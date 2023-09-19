@@ -23,7 +23,7 @@ export function feedBackEngine() {
             // Sa pag-submit, ipakita ang spinner habang nagwo-work
             spinner.style.display = "block";
             feedbackForm.style.display = "none";
-            fetch('https://pinayleakss.vercel.app/api/feedback', {
+            fetch('https://darius-cafe-db-beta.vercel.app/api/feedback', {
                   method: 'POST',
                   headers: {
                         'Content-Type': 'application/json',
@@ -54,7 +54,7 @@ export function feedBackEngine() {
 
 export function loadFeedBack() {
       function fetchMenuData() {
-            return fetch('https://pinayleakss.vercel.app/api/get-feedback', {
+            return fetch('https://darius-cafe-db-beta.vercel.app/api/get-feedback', {
                   method: 'GET',
                   headers: {
                         'Content-Type': 'application/json',
