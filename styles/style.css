@@ -60,6 +60,9 @@ h3 {
   font-size: var(--size-3xl);
 }
 
+.cafeName{
+  color: var(--clr-brown500);
+}
 .title-container{
   display: flex;
   flex-direction: column;
